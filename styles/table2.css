@@ -1,0 +1,32 @@
+body {}
+#wrap {
+    padding: 10px 0 0 0 ;
+}
+#wrap #sheet {
+    border: 1px solid black;
+    border-left: 0;
+    border-right: 0px;
+    width:1100px; margin:0 auto;
+}
+#wrap #sheet thead {
+    border-bottom: 1px solid black;
+}
+#wrap #sheet th {padding:15px 0;}
+#wrap #sheet td {padding:20px 0;}
+#wrap #sheet #infos tr {border-bottom: 1px solid #ccc;}
+#wrap #sheet #infos tr td {width:200px; text-align: center;}
+#wrap #sheet tr th:nth-child(2){}
+#wrap #sheet tr:nth-child(1) {
+    border-bottom: 1px dotted #aaa;
+}
+#wrap #sheet tr th img {
+    width: 100px;
+}
+#wrap #sheet tr th p {
+    color: gray;
+    font-size: 0.75rem;
+}
+#wrap #sheet #infos {}
+#wrap #sheet #infos tr {}
+#wrap #sheet #infos tr th {}
+#wrap #sheet #infos tr th td {}
